@@ -5,14 +5,14 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 
 |*ES2016*|
 |------------------------------|
-Feature name | Simple definition | Example | Links
+|Feature name | Simple definition | Example | Links
 |-------------|-------------------|---------|-------------|
-| `Array.prototype.includes`
-|  Exponentiation operator 
+| `Array.prototype.includes` |
+|  Exponentiation operator |
 |--------------------------------|  
 |*ES2017*|                                                                              |
-|-----
-Feature name | Simple definition | Example | Links
+|-------------|-------------------|---------|-------------|
+|Feature name | Simple definition | Example | Links
 |-------------|-------------------|---------|-------------|
 | [`Object.values`/`Object.entries`](http://exploringjs.com/es2016-es2017/ch_object-entries-object-values.html)                         | 
 | [String padding](http://exploringjs.com/es2016-es2017/ch_string-padding.html)                                            | 
