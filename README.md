@@ -4,18 +4,18 @@ Finished proposals are proposals that have reached stage 4, and are included in 
 
 
 |*ES2016*|
-|------------------------------|
-|Feature name | Simple definition | Example | Links
-|-------------|-------------------|---------|-------------|
-| `Array.prototype.includes` |
-|  Exponentiation operator |
-|--------------------------------|  
+|------------------------------------|
+|Feature name | Definition & Example |
+|-------------|----------------------|
+| `Array.prototype.includes` ||
+|  `Exponentiation operator` ||
+|------------------------------------|  
 |*ES2017*|                                                                              |
-|-------------|-------------------|---------|-------------|
-|Feature name | Simple definition | Example | Links
-|-------------|-------------------|---------|-------------|
-| [`Object.values`/`Object.entries`](http://exploringjs.com/es2016-es2017/ch_object-entries-object-values.html)                         | 
-| [String padding](http://exploringjs.com/es2016-es2017/ch_string-padding.html)                                            | 
+|------------------------------------|
+|Feature name | Definition & Example |
+|-------------|----------------------|
+| [`Object.values`/`Object.entries`](http://exploringjs.com/es2016-es2017/ch_object-entries-object-values.html)      | 
+| [String padding](http://exploringjs.com/es2016-es2017/ch_string-padding.html)                                      | 
 | [`Object.getOwnPropertyDescriptors`](https://github.com/ljharb/proposal-object-getownpropertydescriptors)          | 
 | [Trailing commas in function parameter lists and calls](https://github.com/tc39/proposal-trailing-function-commas) | 
 | [Async functions](https://github.com/tc39/ecmascript-asyncawait)                                                   | 
