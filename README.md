@@ -72,6 +72,8 @@ async function myAsyncFunction() {
   const foo = async () => {};
   ```
 
+> Async functions always return a promise, whether you use await or not.
+
 ## `Object.values`/`Object.entries`
   
 ### `Object.entries`
@@ -88,7 +90,22 @@ Properties, whose keys are symbols, are ignored:
 ```
 
 ## `String padding`
-[String padding](http://exploringjs.com/es2016-es2017/ch_string-padding.html)                                      
+Use cases for padding strings include:
+
+- Displaying tabular data in a monospaced font.
+- Adding a count or an ID to a file name or a URL: 'file 001.txt'
+- Aligning console output: 'Test 001: ✓'
+- Printing hexadecimal or binary numbers that have a fixed number of digits: '0x00FF'     
+
+ ```javascript
+ String.prototype.padStart(maxLength, fillString=' ') 
+ ```
+ 
+ This method prefixes the receiver with fillString, until its length is maxLength:
+
+> 'x'.padStart(5, 'ab')
+'ababx'
+ 
 
 ## `Object.getOwnPropertyDescriptors`
 [`Object.getOwnPropertyDescriptors`](https://github.com/ljharb/proposal-object-getownpropertydescriptors)          
