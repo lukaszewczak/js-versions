@@ -3,11 +3,41 @@
 Finished proposals are proposals that have reached stage 4, and are included in the [latest draft](https://tc39.github.io/ecma262/) of the specification.
 
 
- *ES2016* |
--------------------------------------
- Feature name | Definition & Example 
- `Array.prototype.includes` ||
-  `Exponentiation operator` ||
+ # ES2016
+ ----------------------------
+
+ ## `Array.prototype.includes` 
+ *Check if an array contains an item*
+ ```javascript 
+ > const numbers = [1, 2, 3, 4, 8, 16, 32, 64];
+undefined
+> numbers
+[ 1, 2, 3, 4, 8, 16, 32, 64 ]
+> numbers.includes(8)
+true
+> numbers.includes(22)
+false
+>
+```
+## `Exponentiation operator (**)`
+```javascript
+// x ** y
+
+let squared = 2 ** 2;
+// same as: 2 * 2
+
+let cubed = 2 ** 3;
+// same as: 2 * 2 * 2
+```
+
+```javascript
+// x **= y
+
+let a = 2;
+a **= 2;
+// same as: a = a * a;
+```
+
   
   
 *ES2017* |                                                                              |
